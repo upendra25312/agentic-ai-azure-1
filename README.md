@@ -1,11 +1,24 @@
-<div align="center">
+# Agentic AI Architect Roadmap
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This is a comprehensive, interactive career roadmap and tracker for aspiring Microsoft Agentic AI Architects, featuring a Gemini-powered mentor.
 
-  <h1>Built with AI Studio</h2>
+## Getting Started
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2.  **Set up Environment Variables:**
+    Create a `.env` file in the root directory and add your Gemini API Key:
+    ```env
+    API_KEY=your_gemini_api_key_here
+    ```
 
-</div>
+3.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Google Drive Sync (Optional):**
+    To enable Cloud Sync, you need to create a Google Cloud Project, create an OAuth 2.0 Client ID, and update the `GOOGLE_CLIENT_ID` in `constants.ts`.
